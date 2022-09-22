@@ -25,10 +25,12 @@ revMessage = revMessage.replace(" ","");
 message = message.replace(" ","");
 
 if (revMessage.toLowerCase() == message.toLowerCase()) {
-    displayMessage = "Good One!";
+    displayMessage = "Good One!" ;
+    
 } else{
-    displayMessage = "Ehhhh I don't think so";
+    displayMessage = "Ehhhh I don't think so, try again!";
 }
 
 results.innerHTML = displayMessage;
+
 }
